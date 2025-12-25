@@ -139,6 +139,12 @@ button.secondary { background: rgba(255,255,255,0.03); }
   color: var(--muted);
 }
 
+/* Color-coded tone tags */
+.tag[data-tone="positive"] { color: #9be9a8; }
+.tag[data-tone="neutral"]  { color: #cdd6f4; }
+.tag[data-tone="negative"] { color: #f38ba8; }
+.tag[data-tone="forceful"] { color: #f9e2af; }
+
 .status { margin-top: 10px; color: var(--muted); font-size: 13px; }
 .foot { color: var(--muted); }
 code { color: #cdd6f4; }
