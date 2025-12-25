@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sentence Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Sentence Builder</h1>
+    <p class="sub">Click words to build a sentence. Click a word in the sentence to remove it.</p>
+  </header>
+
+  <main class="wrap grid">
+    <section class="card">
+      <div class="row">
+        <input id="search" type="search" placeholder="Search words…" autocomplete="off" aria-label="Search words" />
+        <button id="clear" type="button" class="secondary">Clear</button>
+      </div>
+
+      <div id="wordList" class="word-list" role="list" aria-label="Word list"></div>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="card">
+      <h2>Your sentence</h2>
+      <div id="sentence" class="sentence" role="list" aria-label="Selected sentence" tabindex="0"></div>
+
+      <div class="divider"></div>
+
+      <h2>Connotations</h2>
+      <div id="details" class="details" aria-live="polite" aria-label="Connotation details"></div>
+
+      <div class="divider"></div>
+
+      <h2>Overall summary</h2>
+      <div id="summary" class="summary" aria-live="polite" aria-label="Overall tone summary"></div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <small>Local/offline. Edit <code>dictionary.json</code> to expand your word bank.</small>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

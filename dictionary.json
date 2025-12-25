@@ -1,0 +1,47 @@
+[
+  {
+    "word": "request",
+    "pos": "verb",
+    "denotation": "to ask for something in a polite or formal way",
+    "connotation": ["polite", "professional", "neutral"],
+    "formality": 4,
+    "intensity": 2,
+    "alternatives": { "softer": ["ask"], "stronger": ["petition"] }
+  },
+  {
+    "word": "demand",
+    "pos": "verb",
+    "denotation": "to ask for something forcefully, as if it is owed",
+    "connotation": ["forceful", "harsh", "authoritative"],
+    "formality": 3,
+    "intensity": 4,
+    "alternatives": { "softer": ["request"], "stronger": ["require"] }
+  },
+  {
+    "word": "kindly",
+    "pos": "adverb",
+    "denotation": "in a kind or polite manner",
+    "connotation": ["polite", "warm"],
+    "formality": 4,
+    "intensity": 1,
+    "alternatives": { "softer": ["please"], "stronger": ["at your earliest convenience"] }
+  },
+  {
+    "word": "urgent",
+    "pos": "adjective",
+    "denotation": "requiring immediate attention",
+    "connotation": ["high-stakes", "pressing"],
+    "formality": 3,
+    "intensity": 5,
+    "alternatives": { "softer": ["time-sensitive"], "stronger": ["immediate"] }
+  },
+  {
+    "word": "unfortunately",
+    "pos": "adverb",
+    "denotation": "used to indicate something is regrettable",
+    "connotation": ["formal", "softening", "negative"],
+    "formality": 4,
+    "intensity": 2,
+    "alternatives": { "softer": ["regrettably"], "stronger": ["to be clear"] }
+  }
+]
