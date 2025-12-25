@@ -15,27 +15,27 @@
   <main class="wrap grid">
     <section class="card">
       <div class="row">
-        <input id="search" type="search" placeholder="Search words…" autocomplete="off" aria-label="Search words" />
+        <input id="search" type="search" placeholder="Search words…" autocomplete="off" />
         <button id="clear" type="button" class="secondary">Clear</button>
       </div>
 
-      <div id="wordList" class="word-list" role="list" aria-label="Word list"></div>
-      <div id="status" class="status" role="status" aria-live="polite"></div>
+      <div id="wordList" class="word-list" aria-label="Word list"></div>
+      <div id="status" class="status" role="status"></div>
     </section>
 
     <section class="card">
       <h2>Your sentence</h2>
-      <div id="sentence" class="sentence" role="list" aria-label="Selected sentence" tabindex="0"></div>
+      <div id="sentence" class="sentence" aria-label="Selected sentence"></div>
 
       <div class="divider"></div>
 
       <h2>Connotations</h2>
-      <div id="details" class="details" aria-live="polite" aria-label="Connotation details"></div>
+      <div id="details" class="details" aria-label="Connotation details"></div>
 
       <div class="divider"></div>
 
       <h2>Overall summary</h2>
-      <div id="summary" class="summary" aria-live="polite" aria-label="Overall tone summary"></div>
+      <div id="summary" class="summary" aria-label="Overall tone summary"></div>
     </section>
   </main>
 
@@ -43,6 +43,6 @@
     <small>Local/offline. Edit <code>dictionary.json</code> to expand your word bank.</small>
   </footer>
 
-  <script type="module" src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
